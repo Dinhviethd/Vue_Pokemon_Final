@@ -28,17 +28,17 @@ const imgSrc = computed(() => {
 <style scoped>
 .card {
     background-color: white;
-    padding: 10px;
+    padding: 15px;
     margin: 9px;
     height: 350px;
     width: 100%;
     font-size: 20px;
     text-align: center;
     border-radius: 20px;
-    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); */
     box-shadow: #0000001a 0 4px 12px;
     cursor: pointer;
     transition: all ease 0.3s;
+    gap: 5px;
 }
 .card:hover{
     box-shadow: #0000002e 2px 15px 15px;
@@ -130,7 +130,6 @@ const imgSrc = computed(() => {
     background-color: rgba(176, 18, 18, 0.616);
 }
 .ice{
-    /* //background color phải phù hợp với thuộc tính */
     background-color: rgba(12, 134, 221, 0.616);
 }
 .dark{
